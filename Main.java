@@ -67,16 +67,47 @@ public class Main {
 
       System.out.println(roundedNeg);*/
 
-      int grade1 = 94;
+      /*int grade1 = 94;
       int grade2 = 86;
       int grade3 = 67;
       double average;
       int sum = grade1 + grade2 + grade3;
       average = ((double)sum / 3);
+      
 
-      System.out.println(average);
+      System.out.println(average);*/
+
+      // Compound Assignment Operators
+      int score = 0;
+      score += 3;
+      score /= 2;
+      System.out.println(score);
+
+      // addition and subtraction can also increment and decrement
+      //score ++;
+
+      /*for(int i = 0; i < 10; i++){
+         System.out.println(i);
+
+
+      } */
+      int ert = 153188;
+      ert %= 10;
+      System.out.println(ert);
+      int w = 1;
+      int x = w/2;
+      double y = 3;
+      int z = (int)(x+y);
+      System.out.println(z);
+      System.out.print("ap");
+      System.out.println(" ");
+      System.out.println("CS");
+      System.out.print("a");
+
+
 
 
 
    }
 }
+
